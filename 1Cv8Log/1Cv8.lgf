@@ -14,4 +14,9 @@ c4419b61-f270-4ef7-9f09-5dee4193c99e
 {4,"_$InfoBase$_.DBConfigUpdateStart",7},
 {4,"_$InfoBase$_.DBConfigUpdate",8},
 {4,"_$InfoBase$_.ConfigUpdate",9},
-{3,"1CV8C",2}
+{3,"1CV8C",2},
+{3,"BackgroundJob",3},
+{4,"_$Transaction$_.Begin",10},
+{4,"_$Data$_.Update",11},
+{5,14b733b9-1c73-4925-8d27-b2e103b87ea2,"РегистрСведений.ГрафикиРаботы",1},
+{4,"_$Transaction$_.Commit",12}

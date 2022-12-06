@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uilog xmlns:d1p1="http://v8.1c.ru/8.3/uilog">
+	<ClientApplicationWindow isMain="true">
+		<CommandInterface>
+			<CommandInterfaceGroup title="Панель функций текущего раздела">
+				<CommandInterfaceGroup title="Сервис">
+					<CommandInterfaceButton title="Заполнение графика">
+						<click/>
+					</CommandInterfaceButton>
+				</CommandInterfaceGroup>
+			</CommandInterfaceGroup>
+		</CommandInterface>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Заполнение графика">
+		<Form title="Заполнение графика">
+			<FormField name="ВыборПериода" title="Выбор периода">
+				<startChoosing/>
+			</FormField>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Выберите период">
+		<Form title="Выберите период">
+			<FormGroup name="GroupDates" title="Group dates">
+				<FormField name="DateBegin" title="DateBegin">
+					<startChoosing/>
+					<inputText text="01.12.2022"/>
+					<startChoosing/>
+					<inputText text="06.12.2022"/>
+				</FormField>
+				<FormField name="DateEnd" title="DateEnd">
+					<startChoosing/>
+					<inputText text="06.01.2023"/>
+				</FormField>
+			</FormGroup>
+			<FormGroup name="GroupBottom" title="Group bottom">
+				<FormGroup name="GroupFormCommandPanel" title="Group form command panel">
+					<FormButton name="Select" title="Выбрать">
+						<click/>
+					</FormButton>
+				</FormGroup>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow caption="Заполнение графика">
+		<Form title="Заполнение графика">
+			<FormGroup name="ФормаКоманднаяПанель" title="Командная панель">
+				<FormButton name="Заполнить" title="Заполнить">
+					<click/>
+				</FormButton>
+			</FormGroup>
+		</Form>
+	</ClientApplicationWindow>
+	<ClientApplicationWindow isMain="true">
+		<CommandInterface>
+			<CommandInterfaceGroup title="Панель функций текущего раздела">
+				<CommandInterfaceButton title="Графики работы">
+					<click/>
+				</CommandInterfaceButton>
+			</CommandInterfaceGroup>
+		</CommandInterface>
+	</ClientApplicationWindow>
+</uilog>
